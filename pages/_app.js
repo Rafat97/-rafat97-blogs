@@ -1,4 +1,4 @@
-import ThemeContextProvider from "../Component/ThemeSwitch/ThemeContextProvider";
+import ThemeContextProvider from "../components/ThemeSwitch/ThemeContextProvider";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {

@@ -1,6 +1,6 @@
 import React from "react";
 import Bounce from "react-reveal/Bounce";
-import Layout from '../Component/Layout'
+import Layout from '../components/Layout'
 
 const FourOhFour = () => {
   return (

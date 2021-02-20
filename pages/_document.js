@@ -9,7 +9,9 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head />
+        <Head>
+          <link rel="shortcut icon" href="/my-image.jpg" type="image/x-icon" />
+        </Head>
         <body>
           <Main />
           <NextScript />
