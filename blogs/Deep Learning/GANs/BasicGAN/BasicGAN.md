@@ -19,6 +19,7 @@ framework corresponds to a minimax two-player game. There are many kinds of gene
 # Some  Generative examples of GANs Work
 
 ![GAN Fig-1](./images/3.png)
+
 Figure : Visualization of samples from the model.
 
 # The GANs progress on face generation
