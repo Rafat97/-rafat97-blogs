@@ -4,7 +4,7 @@ Title : Generative Adversarial Network
 
 # What is Generative Adversarial Network(GAN)
 
-A **GAN, or Generative Adversarial Network** is a **machine learning framework**. It can generate new data points by sampling from this distribution (i.e. choosing combinations with large probability).So, It's a  **probability distribution**. In the case of images, that means you have a probability for every possible combination of pixel values. **For example, generating face, hand digit generation, etc**
+A **GAN, or Generative Adversarial Network** is a **machine learning framework**. It can generate new data points by sampling from this distribution (i.e. choosing combinations with large probability). So, It's a  **probability distribution**. In the case of images, GANs means you have a probability for every possible combination of pixel values. **For example, generating face, hand digit generation, etc**
 
 GANs have 2 major component. There are - 
 
@@ -19,9 +19,26 @@ framework corresponds to a minimax two-player game. There are many kinds of gene
 # Some  Generative examples of GANs Work
 
 ![GAN Fig-1](./images/3.png)
-Figure 1: Visualization of samples from the model.
+Figure : Visualization of samples from the model.
 
-# Basic structure behind of (GAN)
+# The GANs progress on face generation
+
+## All papers link
+[GAN 2014](https://arxiv.org/abs/1406.2661)
+
+[DCGAN 2015](https://arxiv.org/abs/1511.06434)
+
+[CoGAN 2016](https://arxiv.org/abs/1606.07536)
+
+[PGAN 2017](https://arxiv.org/abs/1710.10196)
+
+[StyleGAN 2018](https://arxiv.org/abs/1812.04948)
+
+![GAN Fig-1](./images/10.jpg)
+
+
+
+# Basic structure behind the GANs
 
 Here some pictures of the whole system -
 
@@ -45,7 +62,6 @@ Here some pictures of the whole system -
 ![GAN Fig-4](./images/5.png)
 
 ![GAN Fig-5](./images/4.png)
-
 
 
 In this equation we say,This formula look like **binary cross-entropy loss function**. D and G play the following two-player minimax game with value function V (G, D).
