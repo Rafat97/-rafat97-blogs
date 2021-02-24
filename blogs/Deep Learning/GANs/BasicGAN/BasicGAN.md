@@ -61,6 +61,7 @@ b. After updating D
 
 c. After updating G
 
+d. Mixed strategy equilibrium(p(g) = p(data)) or Global Optimality of p(g) = p(data)
 
 
 ## Backpropagation in  discriminator training
