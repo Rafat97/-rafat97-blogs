@@ -47,7 +47,19 @@ Here some pictures of the whole system -
 
 ![GAN Fig-3](./images/2.png)
 
+## Generative adversarial nets are trained by simultaneously
 ![GAN Fig-6](./images/6.png)
+
+Here, 
+**Discriminative distribution (D, blue, dashed line)** so that it discriminates between samples from **the data generating distribution (black, dotted line)** p(x) from those of the **generative distribution p(g) (G) (green, solid line)**
+
+From this figure we say that -
+
+a. Poorly fit model
+
+b. After updating D
+
+c. After updating G
 
 
 
@@ -89,3 +101,7 @@ In this loss function there have some problem-
 [Papers with code](https://paperswithcode.com/method/gan)
 
 [GANs Google](https://developers.google.com/machine-learning/gan/)
+
+[GANs](https://drive.google.com/drive/folders/1lHtjHQ8K7aemRQAnYMylrrwZp6Bsqqrb)
+
+[Introductory Slide](https://www.slideshare.net/jongwookkim/a-short-introduction-to-generative-adversarial-networks)
