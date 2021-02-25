@@ -106,3 +106,5 @@ In this loss function there have some problem-
 [GANs](https://drive.google.com/drive/folders/1lHtjHQ8K7aemRQAnYMylrrwZp6Bsqqrb)
 
 [Introductory Slide](https://www.slideshare.net/jongwookkim/a-short-introduction-to-generative-adversarial-networks)
+
+[why do gans need so much noise](https://towardsdatascience.com/why-do-gans-need-so-much-noise-1eae6c0fb177)
