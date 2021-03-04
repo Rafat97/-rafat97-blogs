@@ -1,5 +1,8 @@
 ---
-Title : Generative Adversarial Network
+title : Generative Adversarial Network
+updatedAt : 5-March-2021
+category : Deep Learning
+tags: deep learning, gan, vanilla gan, gans introduction
 ---
 
 # What is Generative Adversarial Network(GAN)

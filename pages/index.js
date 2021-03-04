@@ -2,8 +2,12 @@ import Head from "next/head";
 import Layout from "../components/Layout";
 import { HeroSection } from "../components/HeroSection/";
 import { ListBlogs } from "../components/AllBlogs/";
+import { getAllPosts } from '../lib/posts'
 
-export default function Home() {
+// https://github.com/vercel/next.js/blob/canary/examples/blog-starter/lib/markdownToHtml.js
+
+
+export default function Home(props) {
   return (
     <>
       <Head>
@@ -13,8 +17,21 @@ export default function Home() {
       </Head>
       <Layout>
         <HeroSection />
-        <ListBlogs />
+        <ListBlogs posts = {props.posts}/>
       </Layout>
     </>
   );
 }
+
+export async function getStaticProps() {
+  // const config = await getConfig()
+  const allPosts = await getAllPosts()
+  return {
+    props: {
+      posts: allPosts,
+      // title: config.title,
+      // description: config.description
+    }
+  }
+}
+

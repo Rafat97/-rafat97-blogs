@@ -14,6 +14,23 @@ body {
 @tailwind components;
 @tailwind utilities;
 
+.markdown h1 {
+  @apply text-4xl font-bold my-10;
+}
+
+.markdown a {
+  @apply text-blue-300;
+}
+
+
+.markdown p {
+  @apply  my-5;
+}
+
+.markdown a:hover {
+  @apply underline;
+}
+
 /* html,
 body {
   padding: 0;

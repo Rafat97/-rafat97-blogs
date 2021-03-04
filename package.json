@@ -23,5 +23,12 @@
     "react-reveal": "^1.2.2",
     "react-switch": "^6.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gray-matter": "^4.0.2",
+    "js-yaml": "^4.0.0",
+    "marked": "^2.0.1",
+    "raw-loader": "^4.0.2",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1"
+  }
 }

@@ -1,5 +1,7 @@
 ---
-Title : Deep Convolution Generative Adversarial Network
+title : Deep Convolution Generative Adversarial Network
+updatedAt : 5-March-2021
+category : Deep Learning
 ---
 
 # What is Deep Convolution Generative Adversarial Network(DCGAN)
