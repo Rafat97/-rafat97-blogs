@@ -2,6 +2,7 @@ import Head from "next/head";
 import Layout from "../components/Layout";
 import { HeroSection } from "../components/HeroSection/";
 import { ListBlogs } from "../components/AllBlogs/";
+import {Footer} from "../components/Footer"
 import { getAllPosts } from '../lib/posts'
 
 // https://github.com/vercel/next.js/blob/canary/examples/blog-starter/lib/markdownToHtml.js
@@ -18,6 +19,7 @@ export default function Home(props) {
       <Layout>
         <HeroSection />
         <ListBlogs posts = {props.posts}/>
+        <Footer />
       </Layout>
     </>
   );
