@@ -1,25 +1,19 @@
+import dynamic from 'next/dynamic'
 import ThemeContextProvider from "../components/ThemeSwitch/ThemeContextProvider";
 import "../styles/globals.css";
-import Router from 'next/router';
+import'../styles/topProgress.css'
 
-Router.onRouteChangeStart = (url) => {
-  // Some page has started loading
-  console.log("onRouteChangeStart");
-};
-
-Router.onRouteChangeComplete = (url) => {
-  // Some page has finished loading
-  console.log("onRouteChangeComplete");
-};
-
-Router.onRouteChangeError = (err, url) => {
-  // an error occurred.
-  console.log("onRouteChangeError");
-};
+const TopProgressBar = dynamic(
+  () => {
+    return import("../components/TopProgressBar");
+  },
+  { ssr: false },
+);
 
 function MyApp({ Component, pageProps }) {
   return (
     <ThemeContextProvider>
+      <TopProgressBar />
       <Component {...pageProps} />
     </ThemeContextProvider>
   );

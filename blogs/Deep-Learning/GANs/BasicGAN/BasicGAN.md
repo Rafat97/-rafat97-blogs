@@ -2,10 +2,17 @@
 title : Generative Adversarial Network
 updatedAt : 5-March-2021
 category : Deep Learning
+shortDescription: "Basic ideas & important resource of GANs"
 tags: deep learning, gan, vanilla gan, gans introduction
+slug: deep-learning-gans-basicgan-basicgan
+readTime: 3 Minute
+thumbnail: https://raw.githubusercontent.com/Rafat97/rafat97-content-static/main/Deep-Learning/GANs/BasicGAN/images/11.webp
+author: rafat97
 ---
 
-# What is Generative Adversarial Network(GAN)
+<p align="center"><img src="https://raw.githubusercontent.com/Rafat97/rafat97-content-static/main/Deep-Learning/GANs/BasicGAN/images/11.webp" title="Generative Adversarial Network" alt="Generative Adversarial Network"></p>
+
+# What is Generative Adversarial Network(GAN)?
 
 A **GAN, or Generative Adversarial Network** is a **machine learning framework**. It can generate new data points by sampling from this distribution (i.e. choosing combinations with large probability). So, It's a  **probability distribution**. In the case of images, GANs means you have a probability for every possible combination of pixel values. **For example, generating face, hand digit generation, etc**
 
@@ -21,7 +28,7 @@ framework corresponds to a minimax two-player game. There are many kinds of gene
 
 # Some  Generative examples of GANs Work
 
-![GAN Fig-1](./images/3.png)
+![GAN Fig-1](https://raw.githubusercontent.com/Rafat97/rafat97-content-static/main/Deep-Learning/GANs/BasicGAN/images/3.png)
 
 Figure : Visualization of samples from the model.
 
@@ -38,7 +45,7 @@ Figure : Visualization of samples from the model.
 
 [StyleGAN 2018](https://arxiv.org/abs/1812.04948)
 
-![GAN Fig-1](./images/10.jpg)
+![GAN Fig-1](https://raw.githubusercontent.com/Rafat97/rafat97-content-static/main/Deep-Learning/GANs/BasicGAN/images/10.jpg)
 
 
 
@@ -48,10 +55,10 @@ Here some pictures of the whole system -
 
 <!-- ![GAN Fig-2](./images/1.svg) -->
 
-![GAN Fig-3](./images/2.png)
+![GAN Fig-3](https://raw.githubusercontent.com/Rafat97/rafat97-content-static/main/Deep-Learning/GANs/BasicGAN/images/2.png)
 
 ## Generative adversarial nets are trained by simultaneously
-![GAN Fig-6](./images/6.png)
+![GAN Fig-6](https://raw.githubusercontent.com/Rafat97/rafat97-content-static/main/Deep-Learning/GANs/BasicGAN/images/6.png)
 
 Here, 
 **Discriminative distribution (D, blue, dashed line)** so that it discriminates between samples from **the data generating distribution (black, dotted line)** p(x) from those of the **generative distribution p(g) (G) (green, solid line)**
@@ -68,17 +75,17 @@ d. Mixed strategy equilibrium(p(g) = p(data)) or Global Optimality of p(g) = p(d
 
 
 ## Backpropagation in  discriminator training
-![Discriminator Backpropagation](./images/9.svg)
+![Discriminator Backpropagation](https://raw.githubusercontent.com/Rafat97/rafat97-content-static/main/Deep-Learning/GANs/BasicGAN/images/9.svg)
 
 ## Backpropagation in generator training
-![Backpropagation in generator training](./images/8.svg)
+![Backpropagation in generator training](https://raw.githubusercontent.com/Rafat97/rafat97-content-static/main/Deep-Learning/GANs/BasicGAN/images/8.svg)
 
 
 # GANs Loss function
 
-![GAN Fig-4](./images/5.png)
+![GAN Fig-4](https://raw.githubusercontent.com/Rafat97/rafat97-content-static/main/Deep-Learning/GANs/BasicGAN/images/5.png)
 
-![GAN Fig-5](./images/4.png)
+![GAN Fig-5](https://raw.githubusercontent.com/Rafat97/rafat97-content-static/main/Deep-Learning/GANs/BasicGAN/images/4.png)
 
 
 In this equation we say,This formula look like **binary cross-entropy loss function**. D and G play the following two-player minimax game with value function V (G, D).
@@ -91,7 +98,7 @@ In this loss function there have some problem-
 
 # GANs Algorithm
 
-![GANs Algo](./images/7.png)
+![GANs Algo](https://raw.githubusercontent.com/Rafat97/rafat97-content-static/main/Deep-Learning/GANs/BasicGAN/images/7.png)
 
 
 # Resources

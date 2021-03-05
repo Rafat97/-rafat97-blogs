@@ -2,7 +2,15 @@
 title : Deep Convolution Generative Adversarial Network
 updatedAt : 5-March-2021
 category : Deep Learning
+shortDescription: "Basic ideas & important resource of Deep Convolution GANs"
+readTime: 1 Minute
+tags: deep learning, gan, DC gan, convolution gans introduction
+slug: deep-learning-gans-dcgan-dcgan
+thumbnail: https://raw.githubusercontent.com/Rafat97/rafat97-content-static/main/Deep-Learning/GANs/DCGAN/images/6.png
+author: rafat97
 ---
+
+<p align="center"><img src="https://raw.githubusercontent.com/Rafat97/rafat97-content-static/main/Deep-Learning/GANs/DCGAN/images/6.png" title="Deep Convolution Generative Adversarial Network" alt="Deep Convolution Generative Adversarial Network"></p>
 
 # What is Deep Convolution Generative Adversarial Network(DCGAN)
 
@@ -18,20 +26,20 @@ manipulation of many semantic qualities of generated samples
 
 # Some DCGAN examples
 
-![DCGAN Fig-1](./images/1.png)
+![DCGAN Fig-1](https://raw.githubusercontent.com/Rafat97/rafat97-content-static/main/Deep-Learning/GANs/DCGAN/images/1.png)
 *Fig : Real Images vs. Fake Images*
 
-![DCGAN Fig-2](./images/2.gif)
+![DCGAN Fig-2](https://raw.githubusercontent.com/Rafat97/rafat97-content-static/main/Deep-Learning/GANs/DCGAN/images/2.gif)
 
 *Fig : DCGAN every steps training evaluation in hand written digit*
 
 # Basic structure behind the DCGANs
-![DCGAN Fig-2](./images/3.png)
+![DCGAN Fig-2](https://raw.githubusercontent.com/Rafat97/rafat97-content-static/main/Deep-Learning/GANs/DCGAN/images/3.png)
 
 *Fig : Basic Generator & Discriminator in DCGAN*
 
 # Improved network architectural GANs to DCGANs
-![DCGAN Fig-2](./images/4.png)
+![DCGAN Fig-2](https://raw.githubusercontent.com/Rafat97/rafat97-content-static/main/Deep-Learning/GANs/DCGAN/images/4.png)
 
 # Resources
 
